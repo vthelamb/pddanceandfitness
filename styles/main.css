@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Handjet&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet&family=Open+Sans:wght@300&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.under-logo{
+    font-family: 'Handjet', cursive;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.home-splash{
+    position:relative;
+    margin-bottom: 20px;
+}
+
+.container{
+    margin: 0 20px;
+}
+
+.menu-desktop{
+    color:black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    font-family: 'Handjet', cursive;
+    font-weight: 600;
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+
+.menu-desktop a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu-desktop a:hover{
+    color: pink;
+}
+
+.logo{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Copperplate';
+    justify-content: center;
+    margin: 30px;
+}
+
+.section-description .columns{
+    display: flex;
+    flex-direction: row;
+    margin: 0 100px;
+    gap: 100px;
+    padding: 20px 10px;
+}
+
+.section-description .columns .column-left{
+    flex: 1;
+}
+
+.section-description .columns .column-right{
+    flex: 1;
+    text-align: center;
+}
+
+.section-description .columns .column-right .find-out {
+    padding: 10px 20px;
+    background-color: black;
+    color: pink;
+    font-weight: 300;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.bkgd-gray{
+    background-color: #dcdcdc;
+}
+
+.bkgd-pink{
+    background-color: pink;
+}
+
+.section-description .section-title{
+    font-size: 50px;
+    font-family: 'Handjet', cursive; 
+    margin: 0;
+    text-align: center;
+    padding: 30px;
+}
+
+.section-description .section-content{
+    font-size: 18px;
+    padding: 0 20px 20px 0;
+    text-align: center;
+}
+
+.bkgd-red{
+    background-color: red;
+}
+
+.grey-font{
+    color: #dcdcdc;
+}
+
+.red-red-light{
+    position: relative;
+}
+
+.class-reviews{
+    padding: 60px 0;
+    text-align: center;
+}
+
+.review-stars{
+    text-align: center;
+}
+
+/*carousel styling*/
+
+* { box-sizing: border-box; }
+
+.carousel-reviews {
+  background: #FAFAFA;
+  border: 3px solid gold;
+}
+
+.carousel-reviews .review {
+  padding: 0 60px;
+  height: 400px;
+  width: 100%;
+  margin-right: 10px;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+  text-align: center;
+  font-size: 16px;
+}
+
+.carousel-reviews .review .reviews-title{
+    font-size: 30px;
+    font-weight: 800;
+  }
+
+.flickity-enabled{position:relative}.flickity-enabled:focus{outline:0}.flickity-viewport{overflow:hidden;position:relative;height:100%}.flickity-slider{position:absolute;width:100%;height:100%}.flickity-enabled.is-draggable{-webkit-tap-highlight-color:transparent;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.flickity-enabled.is-draggable .flickity-viewport{cursor:move;cursor:-webkit-grab;cursor:grab}.flickity-enabled.is-draggable .flickity-viewport.is-pointer-down{cursor:-webkit-grabbing;cursor:grabbing}.flickity-button{position:initial; background-color:black(0,0,0,0.75);border:solid 1px    ;color:#333}.flickity-button:hover{background:pink;cursor:pointer}.flickity-button:focus{outline:0;box-shadow:0 0 0 5px #19f}.flickity-button:active{opacity:.6}.flickity-button:disabled{opacity:.3;cursor:auto;pointer-events:none}.flickity-button-icon{fill:currentColor}.flickity-prev-next-button{top:50%; gap: 20px; width:44px;height:44px;border-radius:50%;transform:translateY(-50%)}.flickity-prev-next-button.previous{left:10px}.flickity-prev-next-button.next{right:10px}.flickity-rtl .flickity-prev-next-button.previous{left:auto;right:10px}.flickity-rtl .flickity-prev-next-button.next{right:auto;left:10px}.flickity-prev-next-button .flickity-button-icon{position:absolute;left:20%;top:20%;width:60%;height:60%}.flickity-page-dots{position:absolute;width:100%;bottom:-25px;padding:0;margin:0;list-style:none;text-align:center;line-height:1}.flickity-rtl .flickity-page-dots{direction:rtl}.flickity-page-dots .dot{display:inline-block;width:10px;height:10px;margin:0 8px;background:#333;border-radius:50%;opacity:.25;cursor:pointer}.flickity-page-dots .dot.is-selected{opacity:1}
